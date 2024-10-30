@@ -1,0 +1,122 @@
+.mascota-detall {
+    display: flex; /* Usamos flexbox para la disposición */
+    flex-direction: column;
+    height: 100vh; /* Altura completa de la ventana */
+}
+
+.mascota-main {
+    display: flex;
+    flex: 1; /* Permite que ocupe el resto del espacio */
+}
+
+.mascota-info {
+    flex: 0 0 300px; /* Ancho fijo para la columna izquierda */
+    padding: 20px;
+    
+    background-color: #f0fff0; /* Color de fondo de respaldo */
+    border-radius: 10px;
+    position: relative; /* Para posicionar elementos dentro de esta columna */
+}
+
+.mascota-background {
+    background-color: #f5f5dc; /* Color de fondo claro */
+    background-image: currentBackgroundImage; /* Asignación de imágenes de fondo específicas */
+    width: 100%;
+    flex: 1;
+    background-size: 80%; /* Ajusta para que se vea más de la imagen, pero no completa */
+    background-position: center; /* Posiciona hacia arriba para mostrar más de la imagen */
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-left: 20px;
+    height: calc(100vh - 60px); /* Ajuste de altura para ocupar todo el espacio disponible */
+    padding: 10px 0; /* Espacio adicional para centrado */
+}
+
+
+.mascota-icon {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mascota-detail-image {
+    width: 150px; /* Ajusta el tamaño del icono */
+    height: auto;
+    border-radius: 10px;
+}
+
+.mascota-nom {
+    font-size: 38px; /* Tamaño de la fuente del nombre */
+    
+    color: rgb(255, 0, 200) !important; /* Color atractivo */
+}
+
+.mascota-details p {
+    margin: 10px 0; /* Espaciado entre las líneas */
+    font-size: 16px; /* Tamaño de la fuente para los detalles */
+}
+
+.barra {
+    width: 100%;
+    background-color: #e0e0e0; /* Fondo de la barra */
+    border-radius: 5px;
+    height: 20px; /* Altura de la barra */
+    margin-bottom: 10px; /* Espaciado entre las barras */
+}
+
+.barra-nivel {
+    height: 100%; /* Altura completa de la barra */
+    background-color: #33ff00; /* Color de la barra */
+    border-radius: 5px;
+}
+
+.mascota-actions {
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio entre los botones */
+    flex-wrap: wrap; /* Permite que los botones se ajusten en varias líneas si es necesario */
+    margin-top: 10px; /* Espaciado superior de los botones */
+    width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
+}
+
+.select-container {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    gap: 10px; /* Espaciado entre select y botón */
+    flex-grow: 1; /* Permite que el contenedor select ocupe espacio adicional */
+}
+
+.action-button {
+    margin-left: 20px;
+}
+
+.form-select {
+    width: 150px; /* Ajusta el valor según sea necesario */
+    margin-right: 10px; /* Espacio entre el select y el botón */
+}
+
+/* Fondo negro al mostrar el GIF */
+.overlay-blackout {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Asegúrate de que cubra toda la vista */
+    height: 100vh; /* Asegúrate de que cubra toda la vista */
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo negro con un poco de transparencia */
+    display: flex;
+    align-items: center; /* Centrado vertical */
+    justify-content: center; /* Centrado horizontal */
+    z-index: 1000; /* En la parte superior de otros elementos */
+}
+
+/* GIF centrado */
+.gif-container img {
+    max-width: 95%; /* Ajusta el tamaño del GIF */
+    height: auto; /* Mantiene la relación de aspecto */
+    border-radius: 5px; /* Bordes redondeados opcionales */
+}
+
+
+.gif {
+    width: 700px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción */
+}
