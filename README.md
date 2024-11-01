@@ -8,7 +8,7 @@ Este repositorio contiene el frontend de la aplicación **Mascotas Virtuales**, 
 
 ## Descripción del Proyecto
 
-La aplicación **Mascotas Virtuales** permite a los usuarios crear y cuidar mascotas virtuales, ofreciéndoles una experiencia interactiva y personalizada. Incluye funcionalidades de registro, inicio de sesión, creación, visualización, actualización y eliminación de mascotas. Los usuarios pueden elegir entre diversas criaturas (como dragones, unicornios y extraterrestres) y personalizar tanto su apariencia como sus características.
+La aplicación **Mascotas Virtuales** permite a los usuarios crear y cuidar mascotas virtuales, ofreciéndoles una experiencia interactiva y personalizada. Incluye funcionalidades de registro, inicio de sesión, creación, visualización, actualización y eliminación de mascotas. Los usuarios pueden elegir entre only dogs (collie, husky, beagle y pug) y personalizar tanto su apariencia como sus características en un futuro.
 
 ### Características
 

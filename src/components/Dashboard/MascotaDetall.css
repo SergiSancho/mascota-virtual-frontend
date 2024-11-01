@@ -19,20 +19,18 @@
 }
 
 .mascota-background {
-    background-color: #f5f5dc; /* Color de fondo claro */
-    background-image: currentBackgroundImage; /* Asignación de imágenes de fondo específicas */
+    /* background-color: #f5f5dc; /* Color de fondo claro */
     width: 100%;
     flex: 1;
-    background-size: 80%; /* Ajusta para que se vea más de la imagen, pero no completa */
-    background-position: center; /* Posiciona hacia arriba para mostrar más de la imagen */
-    background-repeat: no-repeat;
+    background-size: cover, cover; /* Ajusta el tamaño de ambas imágenes */
+    background-position: center, center; /* Posiciona ambas imágenes en el centro */
+    background-repeat: repeat, no-repeat; /* Evita que ambas imágenes se repitan */
     border-radius: 10px;
     margin-left: 20px;
-    height: calc(100vh - 60px); /* Ajuste de altura para ocupar todo el espacio disponible */
+    height: calc(100vh - 60px); /* Ajusta la altura para ocupar todo el espacio disponible */
     padding: 10px 0; /* Espacio adicional para centrado */
-}
-
-
+  }
+  
 .mascota-icon {
     text-align: center;
     margin-bottom: 20px;
